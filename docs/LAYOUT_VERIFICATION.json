@@ -1,0 +1,86 @@
+{
+  "python_and_clean_notebook_syntax": true,
+  "master_source_checksums": true,
+  "visium_reference_alignment_and_retention": true,
+  "merfish_25um_reference_alignment_and_retention": true,
+  "BR_reference_counts_BH_and_permutation_arithmetic": {
+    "SpaCoEx": 372,
+    "Moran's I": 139,
+    "HVG": 160,
+    "SPARK-X": 18,
+    "Random": 0
+  },
+  "paper_Table1_alpha_half": true,
+  "MERFISH_only_requested_25um_reference": true,
+  "simulation_strict_below_one_zero_cutoff": true,
+  "raw_Visium_candidate_snapshot_recreated": true,
+  "MERFISH_ROI_and_candidates_recreated": true,
+  "Moran_HVG_SpaCoEx_random_panels_recreated_SPARKX_reference_only": true,
+  "fresh_BR_three_pairs_three_permutations_native_checked": true,
+  "reference_heatmap_and_sensitivity_figures_redrawn": true,
+  "fresh_four_method_seven_alpha_clustering_matches_reference": true,
+  "fresh_25um_MERFISH_clustering_matches_reference": true,
+  "fresh_Conley_matches_saved_independent_R_validation": true,
+  "fresh_full_original_simulation_six_paths": [
+    {
+      "penalty": "k",
+      "matrix": "logeuclidean",
+      "unresolved": 0,
+      "shape": [
+        501,
+        50
+      ]
+    },
+    {
+      "penalty": "k_kminus1",
+      "matrix": "logeuclidean",
+      "unresolved": 0,
+      "shape": [
+        501,
+        50
+      ]
+    },
+    {
+      "penalty": "k",
+      "matrix": "raw",
+      "unresolved": 0,
+      "shape": [
+        501,
+        50
+      ]
+    },
+    {
+      "penalty": "k_kminus1",
+      "matrix": "raw",
+      "unresolved": 0,
+      "shape": [
+        501,
+        50
+      ]
+    },
+    {
+      "penalty": "k",
+      "matrix": "fisher_z",
+      "unresolved": 0,
+      "shape": [
+        501,
+        50
+      ]
+    },
+    {
+      "penalty": "k_kminus1",
+      "matrix": "fisher_z",
+      "unresolved": 0,
+      "shape": [
+        501,
+        50
+      ]
+    }
+  ],
+  "complete_999_permutation_suite_rerun_in_this_verification": false,
+  "all_sensitivity_fits_rerun_in_this_verification": false,
+  "elapsed_seconds": 21.63406440000108,
+  "all_six_notebook_setups_run_from_notebooks_folder": true,
+  "simulation_code_unchanged_except_output_locations": true,
+  "change_scope": "File organization, import bootstrap, and repository-relative paths only."
+}

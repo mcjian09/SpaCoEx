@@ -1,0 +1,8 @@
+{
+  "release": "1.1",
+  "directory": "SpaCoEx_standard_v1_1",
+  "sha256": {
+    "analysis.py": "2f7e09d5d9d23135e729ec7feed0d874fc3681500460d86532ecfa88d5f21ecd",
+    "frozen_math.py": "2f2c190b91ffeec7865a618dca01dec013bb8c2e6b2b19953b9f040e956c9915"
+  }
+}

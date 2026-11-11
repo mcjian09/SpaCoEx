@@ -1,0 +1,557 @@
+{
+  "copied_files": [
+    {
+      "file": "src/spacoex_shared.py",
+      "source_name": "spacoex_shared.py",
+      "sha256": "5865d2ba4da34ff4c8f656f21182dfb44ce3766ac53e50e7c50eab19710ea798",
+      "modification": "none"
+    },
+    {
+      "file": "src/SpaCoEx_current.json",
+      "source_name": "SpaCoEx_current.json",
+      "sha256": "c18a70a39cb744a99defda04f9a5a09639b6feb8b815a9e09e21337cb1271f79",
+      "modification": "none"
+    },
+    {
+      "file": "src/visium_internal_domain_grid.py",
+      "source_name": "visium_internal_domain_grid.py",
+      "sha256": "f4413fe615f39baf7488b0464a7d623fdd56a37708c77b1a699e034b39f30235",
+      "modification": "none"
+    },
+    {
+      "file": "src/visium_spatialcorr_domains.py",
+      "source_name": "visium_spatialcorr_domains.py",
+      "sha256": "94c9333c5144cf207130ecaa5f99905971a149a48df92c9793e54a059e12a9e0",
+      "modification": "none"
+    },
+    {
+      "file": "src/visium_42_gene_ablation_helpers.py",
+      "source_name": "visium_42_gene_ablation_helpers.py",
+      "sha256": "cb8f7b9b78ab62e0f936c53de300476a3015f3269c3f1879f45b428b7eb138bf",
+      "modification": "none"
+    },
+    {
+      "file": "src/SpaCoEx_standard_v1_1/analysis.py",
+      "source_name": "analysis.py",
+      "sha256": "2f7e09d5d9d23135e729ec7feed0d874fc3681500460d86532ecfa88d5f21ecd",
+      "modification": "none"
+    },
+    {
+      "file": "src/SpaCoEx_standard_v1_1/frozen_math.py",
+      "source_name": "frozen_math.py",
+      "sha256": "2f2c190b91ffeec7865a618dca01dec013bb8c2e6b2b19953b9f040e956c9915",
+      "modification": "none"
+    },
+    {
+      "file": "src/spatial_tests/pairwise_br.py",
+      "source_name": "pairwise_br.py",
+      "sha256": "7f3b25d7baf44817dff977c78b31a00e2f777346c2779def31adc14a2fe5631d",
+      "modification": "Repository-relative file paths updated; numerical calculations unchanged.",
+      "before_layout_change_sha256": "10d335c065bba547cbc76b92c60b7db50f3fe625118e5fbf68fece1947dcb702"
+    },
+    {
+      "file": "src/spatial_tests/panel_pvalues.py",
+      "source_name": "panel_pvalues.py",
+      "sha256": "b8a1d9b368efea3efc72a1436b45950533231550138c2fdc31070d67b7074047",
+      "modification": "Repository-relative file paths updated; numerical calculations unchanged.",
+      "before_layout_change_sha256": "d4882d6597d464ab6abb6fde3f87bf5c4bbfa3c9c2751abee5a387f81ae6ca1b"
+    },
+    {
+      "file": "src/spatial_tests/breast_pair_spatialcorr_conley.py",
+      "source_name": "breast_pair_spatialcorr_conley.py",
+      "sha256": "048ff807e9e5f288faa0eef8e31cf97eda45879e3aa19061a251fc9bc97d01d6",
+      "modification": "none"
+    },
+    {
+      "file": "src/spatial_tests/validate_conleyreg.R",
+      "source_name": "validate_conleyreg.R",
+      "sha256": "113b8165c54f1a07348d048c31f50726015353edd1b854a9d913318f9083c0d4",
+      "modification": "none"
+    },
+    {
+      "file": "data/visium/section1_moran200.h5ad",
+      "source_name": "section1_moran200.h5ad",
+      "sha256": "3f328e503b3081ece2f05f8d5c88ad4feaa0aa41de051f6b762deed21eeca8fe",
+      "modification": "none"
+    },
+    {
+      "file": "reference/visium/panel_ranks.csv",
+      "source_name": "panel_ranks.csv",
+      "sha256": "060f7eba56359513f5d978cea48bf37d8ed0840f184c90e41e28d88d0ff8de0e",
+      "modification": "none"
+    },
+    {
+      "file": "data/visium/BRCA1_metadata.tsv",
+      "source_name": "BRCA1_metadata.tsv",
+      "sha256": "4e0c254a466ba03a66aa88c94bbdad87370a65a6509c7b3e0533a87e4ba863bd",
+      "modification": "none"
+    },
+    {
+      "file": "data/visium/V1_Breast_Cancer_Block_A_Section_1/spatial/tissue_positions_list.csv",
+      "source_name": "tissue_positions_list.csv",
+      "sha256": "284f439570700a566512e469cddfb1bc59ac135b523a74c806a4fb59d41c2547",
+      "modification": "none"
+    },
+    {
+      "file": "reference/visium/input.npz",
+      "source_name": "input.npz",
+      "sha256": "41e9291cbc803747b915f5892fd08f06963e5d4a425cea110a242a28e14a4f13",
+      "modification": "none"
+    },
+    {
+      "file": "reference/visium/run.json",
+      "source_name": "run.json",
+      "sha256": "db77e3c7488bb4a89e16a795e46a435baa542ac11d8ccbda249389dc8c5d5d2a",
+      "modification": "none"
+    },
+    {
+      "file": "reference/merfish_25um/input.npz",
+      "source_name": "input.npz",
+      "sha256": "8f6c7b6a9d09e16e6b1c5ae7bd0cd83469a86d0aaa737b5e361cdb2fed290400",
+      "modification": "none"
+    },
+    {
+      "file": "reference/merfish_25um/run.json",
+      "source_name": "run.json",
+      "sha256": "75d58daa06134b2f2802deba7b75b812cfa86ea9d7524791c09ef94a660702bc",
+      "modification": "none"
+    },
+    {
+      "file": "reference/visium/run/manifest.json",
+      "source_name": "manifest.json",
+      "sha256": "ed40aacfea6e1918feb51671efd03436109f02cb964ffa80b536e0a59240cb22",
+      "modification": "none"
+    },
+    {
+      "file": "reference/visium/run/association.npz",
+      "source_name": "association.npz",
+      "sha256": "756cd33c76211e0cf0343c70ac44df3c3d73a698853daf115d149d11e23b05e9",
+      "modification": "none"
+    },
+    {
+      "file": "reference/visium/run/weights.csv",
+      "source_name": "weights.csv",
+      "sha256": "0ba48d73e87ca145e484dfe40e353f8ecf7e485d8679e077dc1d9a55b4d40f90",
+      "modification": "none"
+    },
+    {
+      "file": "reference/visium/run/lambda_path.csv",
+      "source_name": "lambda_path.csv",
+      "sha256": "d5824354386d76b464049d544cf610cbcbb62709d070264cf42457f0e486c9d5",
+      "modification": "none"
+    },
+    {
+      "file": "reference/merfish_25um/run/manifest.json",
+      "source_name": "manifest.json",
+      "sha256": "ee209ad164fc71cf4699d7a9671538ce7868785dab2adf9633f009dfcfddfb15",
+      "modification": "none"
+    },
+    {
+      "file": "reference/merfish_25um/run/association.npz",
+      "source_name": "association.npz",
+      "sha256": "75099be95c617dfe4dc09e4fe7fef2d9d66cc9803ebd5fbd574e9329d9f4705d",
+      "modification": "none"
+    },
+    {
+      "file": "reference/merfish_25um/run/weights.csv",
+      "source_name": "weights.csv",
+      "sha256": "287cbe0b8602a0ddce1bb8ebace3746ddf90140a4585ad94e914e262bbbd2196",
+      "modification": "none"
+    },
+    {
+      "file": "reference/merfish_25um/run/lambda_path.csv",
+      "source_name": "lambda_path.csv",
+      "sha256": "720662b5c83768ec5186677c67f4eab525fb9753e07cdbac0864157f246c330d",
+      "modification": "none"
+    },
+    {
+      "file": "reference/visium/run/spot_metadata.csv",
+      "source_name": "spot_metadata.csv",
+      "sha256": "f7116b5c23cf1bf986b3f3890d1e6977a596c43bc0df5885cce8f2081b89013c",
+      "modification": "none"
+    },
+    {
+      "file": "reference/visium/run/eligible_genes_moran_ranking.csv",
+      "source_name": "eligible_genes_moran_ranking.csv",
+      "sha256": "e617022e58ba599674b021da9622e7274601dd99a69f29aa681f7cc10fd47d2b",
+      "modification": "none"
+    },
+    {
+      "file": "reference/visium_clustering/results.csv",
+      "source_name": "results.csv",
+      "sha256": "f3200e7ed33ac2b4764fd7c2448d3893c04dee53b459c8e96ccb9960400d0d64",
+      "modification": "none"
+    },
+    {
+      "file": "reference/visium_clustering/selected_genes.csv",
+      "source_name": "selected_genes.csv",
+      "sha256": "8338e5bcfacefe54d1292486fbaf73f7ed6028ce3e96031f0d12574d129ac9c6",
+      "modification": "none"
+    },
+    {
+      "file": "reference/visium_clustering/HVG/agreement.csv",
+      "source_name": "agreement.csv",
+      "sha256": "6b06d4a23362e3200dde3d2723db96b47613156b5849c7782c2fdf5f6313b486",
+      "modification": "none"
+    },
+    {
+      "file": "reference/visium_clustering/HVG/spot_clusters.csv.gz",
+      "source_name": "spot_clusters.csv.gz",
+      "sha256": "a513e1658003e5d9a6aaf57e903a8d4bcca43471129c401e2279cf814b665e38",
+      "modification": "none"
+    },
+    {
+      "file": "reference/visium_clustering/Morans_I/agreement.csv",
+      "source_name": "agreement.csv",
+      "sha256": "fe783d2a678ab8fe1ed56bf792e22ea6c1d277800bfa0815d4ab04b0051e3589",
+      "modification": "none"
+    },
+    {
+      "file": "reference/visium_clustering/Morans_I/spot_clusters.csv.gz",
+      "source_name": "spot_clusters.csv.gz",
+      "sha256": "fafc06c788841f4cdd6da6a16bfd5bb960795c50cc8bda33d4656d546fe553b9",
+      "modification": "none"
+    },
+    {
+      "file": "reference/visium_clustering/SpaCoEx/agreement.csv",
+      "source_name": "agreement.csv",
+      "sha256": "1d1e12ec87b551226c00e59b2b10798eb811777ea4aacf020a478eefe8cdfd7f",
+      "modification": "none"
+    },
+    {
+      "file": "reference/visium_clustering/SpaCoEx/spot_clusters.csv.gz",
+      "source_name": "spot_clusters.csv.gz",
+      "sha256": "5c2f45379367c147205ceafb02a27b106244edcdfe126b2c80039cf548e9a871",
+      "modification": "none"
+    },
+    {
+      "file": "reference/visium_clustering/SPARK-X/agreement.csv",
+      "source_name": "agreement.csv",
+      "sha256": "b436c1f6f0467f51a42031afa73bb58593cd9317ad26aa51550a93a6a48834cb",
+      "modification": "none"
+    },
+    {
+      "file": "reference/visium_clustering/SPARK-X/spot_clusters.csv.gz",
+      "source_name": "spot_clusters.csv.gz",
+      "sha256": "ee0f72d72d747c5e60f3d7b92d5b030372e3e41e377e66eef85279f1f309ba01",
+      "modification": "none"
+    },
+    {
+      "file": "reference/br/panel_key.csv",
+      "source_name": "visium_strict_top42_vs_random42_seed42_BR_heatmaps_key.csv",
+      "sha256": "a4d27e3b19ebf2888355bbd8140cc904fcc34df08ec59971256e114357fe255a",
+      "modification": "none"
+    },
+    {
+      "file": "reference/br/SpaCoEx.csv",
+      "source_name": "visium_strict_top42_pairwise_BR_999.csv",
+      "sha256": "00c9cad5503bf729defaff90a4b9fd1580773ec1f2399cfc88149921e3c3b637",
+      "modification": "none"
+    },
+    {
+      "file": "reference/br/Random.csv",
+      "source_name": "visium_strict_lowest_group_random42_seed42_pairwise_BR_999.csv",
+      "sha256": "0ca29879bcf6be5ad76b9a20b9a9ac260993b2289f2b7c6b9acbf4f12de6e0b1",
+      "modification": "none"
+    },
+    {
+      "file": "reference/br/Morans_I.csv",
+      "source_name": "Morans_I_pairwise_BR_999.csv",
+      "sha256": "ef5acfafdb1925353046c79c3c532ce0c5cc4a9e6bed754f3d362d7458cefb65",
+      "modification": "none"
+    },
+    {
+      "file": "reference/br/HVG.csv",
+      "source_name": "HVG_pairwise_BR_999.csv",
+      "sha256": "ab6253e919c7c6f8439815762e2686aed9db198a596102b1cd4427df5e69a403",
+      "modification": "none"
+    },
+    {
+      "file": "reference/br/SPARK-X.csv",
+      "source_name": "SPARK-X_pairwise_BR_999.csv",
+      "sha256": "01b1b0307e2d6ec74b1c419e3bb723bb4196c6c7b1c3bcc32e6b8f2ea54fbfce",
+      "modification": "none"
+    },
+    {
+      "file": "reference/br/significant_pair_counts.csv",
+      "source_name": "significant_pair_counts.csv",
+      "sha256": "275e44d9bf3c9320868dd4638b00b4608f673c84c6805e2169246888b955de31",
+      "modification": "none"
+    },
+    {
+      "file": "reference/sparkx/sparkx_scores.csv",
+      "source_name": "sparkx_scores.csv",
+      "sha256": "1c0e4689b944c12b3fa8edad6f735fa644d8e021d96cde35a90bbb95c84ac5c2",
+      "modification": "none"
+    },
+    {
+      "file": "reference/sparkx/sparkx_runtime.csv",
+      "source_name": "sparkx_runtime.csv",
+      "sha256": "ebafaecc4cf30d0f2d8cd2156c3513568654baa12e1c004b0f939ed1707f91ea",
+      "modification": "none"
+    },
+    {
+      "file": "reference/sparkx/sparkx_sessionInfo.txt",
+      "source_name": "sparkx_sessionInfo.txt",
+      "sha256": "aeed026a5661b88d946e96d1e0ecdd023f6674360bfd5fec525b694cc774931f",
+      "modification": "none"
+    },
+    {
+      "file": "reference/conley/spot_outcomes.csv",
+      "source_name": "spot_outcomes.csv",
+      "sha256": "9ae3e6a06b77f54ef4ec63fb1444070797826efd28f978b3a01bf00be45ee6a7",
+      "modification": "none"
+    },
+    {
+      "file": "reference/conley/cutoff_sensitivity.csv",
+      "source_name": "cutoff_sensitivity.csv",
+      "sha256": "c9e088f8b1e031a337f8c2de54a0c83593a2b47149a236db858f3948243154d0",
+      "modification": "none"
+    },
+    {
+      "file": "reference/conley/validation_against_conleyreg.csv",
+      "source_name": "validation_against_conleyreg.csv",
+      "sha256": "cfdca5c1a65e2b9c9ab12262421459299d18b0bd7e2a6864ac41b5674209282d",
+      "modification": "none"
+    },
+    {
+      "file": "data/merfish/roi_cells.csv",
+      "source_name": "roi_cells.csv",
+      "sha256": "a70a5f861b3d2173d487b454336d097412aac20ef1d91fd42e9c955124211201",
+      "modification": "none"
+    },
+    {
+      "file": "data/merfish/candidate_screen.csv",
+      "source_name": "candidate_screen.csv",
+      "sha256": "b7268d80b91ea236674f3eb3d5124a9e738b6a47d7c1222a165409c95fa9c56d",
+      "modification": "none"
+    },
+    {
+      "file": "data/merfish/roi_v1_file55130807.npz",
+      "source_name": "roi_v1_file55130807.npz",
+      "sha256": "cf029b4271580b12c510b2218eaa0cfa6f8a76bd9936b8086b11bd7057c7d1ae",
+      "modification": "none"
+    },
+    {
+      "file": "data/merfish/section_M3-2.npz",
+      "source_name": "section_v1_file55130807_M3-2.npz",
+      "sha256": "f9fc5482db4a3af2fc22cf6d3afc960e6b1be6318386b81621b2004f1c7a8dfa",
+      "modification": "none"
+    },
+    {
+      "file": "reference/merfish_25um/domains/spacoex_panel.csv",
+      "source_name": "spacoex_panel.csv",
+      "sha256": "96c628b3a57acb026f043073d0a7b41050d398976b7486659bb52f1c3a5dd31b",
+      "modification": "none"
+    },
+    {
+      "file": "reference/merfish_25um/domains/agreement.csv",
+      "source_name": "agreement.csv",
+      "sha256": "d0c8a60a99eb27a7b744605d28719582f08b66f7bf595c98a71cc88b262942a5",
+      "modification": "none"
+    },
+    {
+      "file": "reference/merfish_25um/domains/spot_clusters.csv",
+      "source_name": "spot_clusters.csv",
+      "sha256": "08a744d10bec8ab02bc8e96d4e93ebf20935112a53965431c209be6341f04d8d",
+      "modification": "none"
+    },
+    {
+      "file": "reference/merfish_25um/domains/spot_color_indices.csv",
+      "source_name": "spot_color_indices.csv",
+      "sha256": "4c2c6ca19e8d8f6384bcd71840d98254293aea338aca64e4d5f8d1839681c179",
+      "modification": "none"
+    },
+    {
+      "file": "reference/merfish_25um/domains/manual_color_key.csv",
+      "source_name": "manual_color_key.csv",
+      "sha256": "432ca149d92ae915b786a297be4789f9ab6ebdde594d82a7ab39755c38b6f21d",
+      "modification": "none"
+    },
+    {
+      "file": "reference/merfish_25um/domains/panel_with_cutoff_ties.csv",
+      "source_name": "panel_with_cutoff_ties.csv",
+      "sha256": "c4db33408612dff1cb7b604febc5ba5bf7f4b5b1e8a966cc28c23a0ac2689df9",
+      "modification": "none"
+    },
+    {
+      "file": "reference/sensitivity/h_10_ridge_1e-06.csv",
+      "source_name": "h_10_ridge_1e-06.csv",
+      "sha256": "16fd945e37b676c0a74c2cc59d2d70418181fe59dddf652c6f75f1dd61fe6d6a",
+      "modification": "none"
+    },
+    {
+      "file": "reference/sensitivity/h_10_ridge_1e-06.npz",
+      "source_name": "h_10_ridge_1e-06.npz",
+      "sha256": "df2861828db23d62cb1955ca8baaa94efbb2e98e0529e4ae044e8c964cf182b5",
+      "modification": "none"
+    },
+    {
+      "file": "reference/sensitivity/h_2_ridge_1e-06.csv",
+      "source_name": "h_2_ridge_1e-06.csv",
+      "sha256": "88931d93cac9be8725185969b0aeb5f5d8035f7619f13a5c2694154df60c5fea",
+      "modification": "none"
+    },
+    {
+      "file": "reference/sensitivity/h_2_ridge_1e-06.npz",
+      "source_name": "h_2_ridge_1e-06.npz",
+      "sha256": "5f8d5428ce8393414c3f15233b2a31216100af2b4620160ecfa4d1189f0b40a2",
+      "modification": "none"
+    },
+    {
+      "file": "reference/sensitivity/h_3_ridge_1e-06.csv",
+      "source_name": "h_3_ridge_1e-06.csv",
+      "sha256": "a3120836518c242278e6cb77ef144bd5938ca020f7a4285d18e6bf28fdf0dd66",
+      "modification": "none"
+    },
+    {
+      "file": "reference/sensitivity/h_3_ridge_1e-06.npz",
+      "source_name": "h_3_ridge_1e-06.npz",
+      "sha256": "d6507777fe9bdf87286bddda1e0ddb8ae417fdddfcbf09ac95beb160216658a7",
+      "modification": "none"
+    },
+    {
+      "file": "reference/sensitivity/h_5_ridge_1e-02.csv",
+      "source_name": "h_5_ridge_1e-02.csv",
+      "sha256": "ac432ad7e940c74f49465cf4464d650c788f7fc41caddd52fbcf3416885e5d12",
+      "modification": "none"
+    },
+    {
+      "file": "reference/sensitivity/h_5_ridge_1e-02.npz",
+      "source_name": "h_5_ridge_1e-02.npz",
+      "sha256": "4344714a517e686fbceefc97053b27f9b98d9d643c1f6d72d823af767a0ba198",
+      "modification": "none"
+    },
+    {
+      "file": "reference/sensitivity/h_5_ridge_1e-03.csv",
+      "source_name": "h_5_ridge_1e-03.csv",
+      "sha256": "e8c2f3cc57dfb2d901b7cbc86d6895eda48bb3a06a85265469eb780e05ce0499",
+      "modification": "none"
+    },
+    {
+      "file": "reference/sensitivity/h_5_ridge_1e-03.npz",
+      "source_name": "h_5_ridge_1e-03.npz",
+      "sha256": "1206313c74b0f0832519031d1d343f018696f714e79951635d7332e36d3abcf0",
+      "modification": "none"
+    },
+    {
+      "file": "reference/sensitivity/h_5_ridge_1e-04.csv",
+      "source_name": "h_5_ridge_1e-04.csv",
+      "sha256": "2462697bb57fa308592288265e826517ed65656bbb4aabb39d38e8a8b6fe321c",
+      "modification": "none"
+    },
+    {
+      "file": "reference/sensitivity/h_5_ridge_1e-04.npz",
+      "source_name": "h_5_ridge_1e-04.npz",
+      "sha256": "279777cd4e9c687a1350c41b1e6494354ad5a07995ffec901a7aa5948a3953cd",
+      "modification": "none"
+    },
+    {
+      "file": "reference/sensitivity/h_5_ridge_1e-05.csv",
+      "source_name": "h_5_ridge_1e-05.csv",
+      "sha256": "54d2c7631eae8166f90de1155ff3c8b85abf539da1c228796941180a59e78435",
+      "modification": "none"
+    },
+    {
+      "file": "reference/sensitivity/h_5_ridge_1e-05.npz",
+      "source_name": "h_5_ridge_1e-05.npz",
+      "sha256": "d5fca8e9f7518d6ed48ed6beddc7997b52100bc26988d54695de607efb562172",
+      "modification": "none"
+    },
+    {
+      "file": "reference/sensitivity/h_5_ridge_1e-06.csv",
+      "source_name": "h_5_ridge_1e-06.csv",
+      "sha256": "6ce1f1be657b5af9c86e4a216ba966357438292ccac1df1450d9ccb34b589238",
+      "modification": "none"
+    },
+    {
+      "file": "reference/sensitivity/h_5_ridge_1e-06.npz",
+      "source_name": "h_5_ridge_1e-06.npz",
+      "sha256": "70007b9c137bec73ab18b4c05c78c6b99d0b9f3a6f3c4c842373404c112ca499",
+      "modification": "none"
+    },
+    {
+      "file": "reference/sensitivity/h_5_ridge_1e-07.csv",
+      "source_name": "h_5_ridge_1e-07.csv",
+      "sha256": "0ab66ab42852fae8e44660ea0d24697ac5201da36f76993b86e01581c811fda0",
+      "modification": "none"
+    },
+    {
+      "file": "reference/sensitivity/h_5_ridge_1e-07.npz",
+      "source_name": "h_5_ridge_1e-07.npz",
+      "sha256": "6314326c35fbe672902993071dafa51cb690244205f29c5ca84ed0682199ea1c",
+      "modification": "none"
+    },
+    {
+      "file": "reference/sensitivity/h_5_ridge_1e-08.csv",
+      "source_name": "h_5_ridge_1e-08.csv",
+      "sha256": "9519e7caf3f202d41bc5050c92c66352f051ea494dfa7ed01958f925064ab22a",
+      "modification": "none"
+    },
+    {
+      "file": "reference/sensitivity/h_5_ridge_1e-08.npz",
+      "source_name": "h_5_ridge_1e-08.npz",
+      "sha256": "140806e7d6b80aa1d1eea14c866b4f235bcc34ccf484691cc8870cd93d494b47",
+      "modification": "none"
+    },
+    {
+      "file": "reference/sensitivity/h_5_ridge_1e-09.csv",
+      "source_name": "h_5_ridge_1e-09.csv",
+      "sha256": "c8bb841b16cd86204d1b7a8ab6eb4edbf317a2a5ed05022fc86ca9e0c9767811",
+      "modification": "none"
+    },
+    {
+      "file": "reference/sensitivity/h_5_ridge_1e-09.npz",
+      "source_name": "h_5_ridge_1e-09.npz",
+      "sha256": "a80af0439a4766c898b3c8320b307953b7242e199cde955f4bd72f0a32a43e69",
+      "modification": "none"
+    },
+    {
+      "file": "reference/sensitivity/h_5_ridge_1e-10.csv",
+      "source_name": "h_5_ridge_1e-10.csv",
+      "sha256": "a0a075c20471524118f169aca35b064fc2aaeee0fd37ef044bc7aeef09fd0347",
+      "modification": "none"
+    },
+    {
+      "file": "reference/sensitivity/h_5_ridge_1e-10.npz",
+      "source_name": "h_5_ridge_1e-10.npz",
+      "sha256": "6dba09cd17748e4ab64af5366acdbed9340fbadcab2a906a73aca31c501b4c49",
+      "modification": "none"
+    },
+    {
+      "file": "reference/sensitivity/h_7_ridge_1e-06.csv",
+      "source_name": "h_7_ridge_1e-06.csv",
+      "sha256": "58f454cca05baeefc3359ca901d95d1dfe75d519cc6c2e93c5d91bc67f878ef7",
+      "modification": "none"
+    },
+    {
+      "file": "reference/sensitivity/h_7_ridge_1e-06.npz",
+      "source_name": "h_7_ridge_1e-06.npz",
+      "sha256": "087095fbd14f476aec2c6cb9c0a08b2a9bcc8522d0b178d903eed7354408f26f",
+      "modification": "none"
+    },
+    {
+      "file": "reference/simulation/publication_both_penalties.pdf",
+      "source_name": "publication_both_penalties.pdf",
+      "sha256": "aa05521f8c4ea7bd239208e9a177a9c20e9a51b701a9b4de18b41215e8ba3919",
+      "modification": "none"
+    },
+    {
+      "file": "data/visium/V1_Breast_Cancer_Block_A_Section_1/filtered_feature_bc_matrix.h5.part01",
+      "source_name": "filtered_feature_bc_matrix.h5",
+      "original_sha256": "b3cbb6ead60afad848ebcc07a34835613d9d2d79e416ad8300b210d9de584b65",
+      "sha256": "b45c3a921ecd6ece77c59dd6aed24758a3ca4687f83ad67c95d9bdcb76d0c517",
+      "modification": "binary transport part; concatenation restores original H5 bytes"
+    },
+    {
+      "file": "data/visium/V1_Breast_Cancer_Block_A_Section_1/filtered_feature_bc_matrix.h5.part02",
+      "source_name": "filtered_feature_bc_matrix.h5",
+      "original_sha256": "b3cbb6ead60afad848ebcc07a34835613d9d2d79e416ad8300b210d9de584b65",
+      "sha256": "38ceb63641fe539ae99491fdc8ec4bfeea487109e0654ca046c268ac79497709",
+      "modification": "binary transport part; concatenation restores original H5 bytes"
+    }
+  ],
+  "extracted_simulation_notebook_sha256": "122736eebf49f7ebf3e51b66b14c2c2327e1e8477b32716493e965b587f4e4ff",
+  "simulation_note": "First code cell and final publication plot retained verbatim; notebook outputs cleared.",
+  "input_function_note": "Function bodies extracted from original Visium and PEtracer loaders without mathematical edits."
+}
