@@ -1,0 +1,51 @@
+{
+  "dataset": "Visium Human Breast Cancer Block A Section 1",
+  "input": "input.npz",
+  "coordinate_units": "Visium array coordinates",
+  "candidate_policy": "Raw detection in >=3 annotated spots before library totals; raw detection in >=1899 spots for panel; artifact exclusions=True; top 200 by pixel-Delaunay Moran's I on log1p(CP10K).",
+  "input_description": "10x filtered Gene Expression raw integer counts; SEDR fine-annotated spots only.",
+  "matrix": "logeuclidean",
+  "selection": "gradient",
+  "normalization": "cp10k",
+  "log1p": true,
+  "release": "1.1",
+  "input_sha256": "41e9291cbc803747b915f5892fd08f06963e5d4a425cea110a242a28e14a4f13",
+  "method_sha256": {
+    "analysis.py": "2f7e09d5d9d23135e729ec7feed0d874fc3681500460d86532ecfa88d5f21ecd",
+    "frozen_math.py": "2f2c190b91ffeec7865a618dca01dec013bb8c2e6b2b19953b9f040e956c9915"
+  },
+  "preprocessing": "cp10k_log1p",
+  "cells": 3798,
+  "features": 200,
+  "spacings": 3.54,
+  "bandwidth": 5.006316010800757,
+  "median_effective_neighbors": 76.77246409536349,
+  "kernel": "exp(-distance_squared / bandwidth_squared); self included; source-centered",
+  "ridge": 1e-06,
+  "fisher_clip": null,
+  "zero_S_diagonal": false,
+  "S_scaling": "sum of squared deviations, not normalized",
+  "penalty": "lambda * k * (k - 1), k = sum(w)",
+  "lambda_grid": "401 linear points, 0 to 2.02*max(S)",
+  "requested_grid_points": 401,
+  "evaluated_grid_points": 101,
+  "terminal_lambda": 2972.835704444449,
+  "active_threshold": 1e-06,
+  "gradient_settings": {
+    "seed": 1,
+    "random_starts": 10,
+    "max_iter": 10000,
+    "tolerance": 1e-08,
+    "ascending": true,
+    "warm_start": true,
+    "stop": "first converged fit with <=1 active"
+  },
+  "python": "3.13.13",
+  "versions": {
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "pandas": "3.0.3",
+    "matplotlib": "3.10.9",
+    "threadpoolctl": "3.6.0"
+  }
+}

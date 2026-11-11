@@ -1,0 +1,11 @@
+{
+  "dataset": "Visium Human Breast Cancer Block A Section 1",
+  "input": "input.npz",
+  "coordinate_units": "Visium array coordinates",
+  "candidate_policy": "Raw detection in >=3 annotated spots before library totals; raw detection in >=1899 spots for panel; artifact exclusions=True; top 200 by pixel-Delaunay Moran's I on log1p(CP10K).",
+  "input_description": "10x filtered Gene Expression raw integer counts; SEDR fine-annotated spots only.",
+  "matrix": "logeuclidean",
+  "selection": "gradient",
+  "normalization": "cp10k",
+  "log1p": true
+}

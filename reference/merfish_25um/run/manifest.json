@@ -1,0 +1,53 @@
+{
+  "dataset": "PEtracer M3 MERFISH M3-2 boundary, n=1200",
+  "input": "input.npz",
+  "coordinate_units": "microns",
+  "candidate_policy": "Detection >= 0.05; up to 200 by Delaunay Moran I",
+  "input_description": "Same saved PEtracer counts/candidates; fixed Gaussian bandwidth 25 um",
+  "matrix": "logeuclidean",
+  "selection": "gradient",
+  "normalization": "cp10k",
+  "log1p": true,
+  "release": "1.1",
+  "input_sha256": "8f6c7b6a9d09e16e6b1c5ae7bd0cd83469a86d0aaa737b5e361cdb2fed290400",
+  "method_sha256": {
+    "analysis.py": "2f7e09d5d9d23135e729ec7feed0d874fc3681500460d86532ecfa88d5f21ecd",
+    "frozen_math.py": "2f2c190b91ffeec7865a618dca01dec013bb8c2e6b2b19953b9f040e956c9915"
+  },
+  "preprocessing": "cp10k_log1p",
+  "cells": 1200,
+  "features": 136,
+  "spacings": 4.004937296890999,
+  "bandwidth": 24.999999999999996,
+  "median_effective_neighbors": 34.400243917458106,
+  "kernel": "exp(-distance_squared / bandwidth_squared); self included; source-centered",
+  "ridge": 1e-06,
+  "fisher_clip": null,
+  "zero_S_diagonal": false,
+  "S_scaling": "sum of squared deviations, not normalized",
+  "penalty": "lambda * k * (k - 1), k = sum(w)",
+  "lambda_grid": "401 linear points, 0 to 2.02*max(S)",
+  "requested_grid_points": 401,
+  "evaluated_grid_points": 102,
+  "terminal_lambda": 4778.43250700235,
+  "active_threshold": 1e-06,
+  "gradient_settings": {
+    "seed": 1,
+    "random_starts": 10,
+    "max_iter": 10000,
+    "tolerance": 1e-08,
+    "ascending": true,
+    "warm_start": true,
+    "stop": "first converged fit with <=1 active"
+  },
+  "python": "3.11.7",
+  "versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "pandas": "2.3.3",
+    "matplotlib": "3.10.9",
+    "threadpoolctl": "3.6.0"
+  },
+  "bandwidth_policy": "fixed absolute bandwidth in micrometers",
+  "requested_bandwidth_um": 25.0
+}

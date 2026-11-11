@@ -1,0 +1,11 @@
+{
+  "dataset": "PEtracer M3 MERFISH M3-2 boundary, n=1200",
+  "input": "input.npz",
+  "coordinate_units": "microns",
+  "candidate_policy": "Detection >= 0.05; up to 200 by Delaunay Moran I",
+  "input_description": "Same saved PEtracer counts/candidates; fixed Gaussian bandwidth 25 um",
+  "matrix": "logeuclidean",
+  "selection": "gradient",
+  "normalization": "cp10k",
+  "log1p": true
+}
